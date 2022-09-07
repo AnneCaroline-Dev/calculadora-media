@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Escolar Alura</title>
+    <link rel="stylesheet" href="./aula01.css">
+    <script src="boletim.js"></script>
+</head>
+<body>
+<div class="boletim">
+    <table  border="1">
+        <caption><h2>Boletim Primeiro Trimestre</h2></caption>
+        <caption><h3>Aluno: Anne Caroline</h3></caption>
+    <thead>
+       <tr>
+        <th> 
+            Timestre
+        </th>
+        <th>
+           Primeira Avaliação 
+        </th>
+        <th>
+            Segunda Avaliação 
+        </th>
+        <th>
+            Terceira Avaliação
+        </th>
+        <th>
+            Média Trimestral
+        </th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    <tr>
+        <th>Primeiro Trimestre </th>
+        <td id="primeiraavaliacao"> 9 </td>
+        <td id="segundaavaliacao"> 7 </td>
+        <td id="terceiraavaliacao"> 6 </td>
+        <td id="mediatotal"> 7.3</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+    
+    <br>
+    <div class="media">
+    <form >
+        <fieldset>
+            <legend> <strong> Situação </strong> </legend>
+        
+            <input type="checkbox"  id="Aprovado" disabled> <strong> Aprovado (Nota > 9 )</strong>
+            <br>
+            <input type="checkbox"  id="Recuperacao" checked> <strong> Recuperação (Nota entre 6 e 8 ) </strong>
+            <br>
+           <input type="checkbox"  id="Reprovado" disabled> <strong> Reprovado (Nota < 5)</strong>
+        
+        </fieldset>
+     </form>
+     </div>
+    </body>
+    </html>

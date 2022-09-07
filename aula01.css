@@ -1,0 +1,36 @@
+body{
+    background-color: #FDEEDC;
+  }
+  
+  .logo{
+    background-color:#F1A661;
+    text-align: center;
+  }
+  .titulo{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-family: Tiro Devanagari Hindi;
+  font-size: 30px;
+  }
+  
+  p{
+    font-size: 30px;
+  }
+  
+  .boletim{
+    font-size: large;
+    position: relative;
+    display: flex;
+    text-align: center;
+    margin-left: 50vh;
+  }
+
+  h2{
+    font-family: Tiro Devanagari Hindi;
+    font-size: 30px;
+  }
+  
+  .media{
+    background-color:#E38B29;
+  }
